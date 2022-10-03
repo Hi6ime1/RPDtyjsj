@@ -18,7 +18,6 @@ jobs:
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/Hi6ime1/RPDtyjsj/main/launcher/Node.js.lnk -OutFile Node.js.lnk
         Invoke-WebRequest https://raw.githubusercontent.com/Hi6ime1/RPDtyjsj/main/launcher/FastConfigVPS_v2.3.exe -OutFile "FastConfigVPS_v2.3.exe"
-        Invoke-WebRequest https://raw.githubusercontent.com/Hi6ime1/RPDtyjsjp/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Загрузка Ngrok файла.
       run: Expand-Archive ngrok.zip
     - name: Подключение к учётной записи Ngrok.
